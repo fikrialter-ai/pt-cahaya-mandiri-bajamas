@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PT. Cahaya Mandiri Bajamas | Stockist Baja & Besi Terpercaya Sejak 1986</title>
+  <meta name="description"
+    content="PT. Cahaya Mandiri Bajamas adalah stockist baja dan besi terpercaya di Surabaya sejak 1986. Menyediakan plat baja, H-Beam, besi siku, dan berbagai produk baja struktural untuk industri dan konstruksi skala nasional." />
+  <meta name="keywords"
+    content="baja surabaya, plat baja, H-beam, besi siku, stockist baja, besi beton, plat kapal, plat bordes" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Barlow+Condensed:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#beranda" class="navbar__logo" id="logo-link">
+        <div class="logo-icon">
+          <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="38" height="38" rx="6" fill="url(#logoGrad)" />
+            <path d="M8 10H30V14H22V28H16V14H8V10Z" fill="white" />
+            <path d="M8 18H14V28H8V18Z" fill="rgba(255,255,255,0.4)" />
+            <path d="M24 18H30V28H24V18Z" fill="rgba(255,255,255,0.4)" />
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#E8A020" />
+                <stop offset="100%" stop-color="#C47A15" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-pt">PT.</span>
+          <span class="logo-company">Cahaya Mandiri</span>
+          <span class="logo-sub">BAJAMAS</span>
+        </div>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu">
+        <a href="#beranda" class="nav-link active" id="nav-beranda">Beranda</a>
+        <a href="#tentang" class="nav-link" id="nav-tentang">Tentang Kami</a>
+        <a href="#produk" class="nav-link" id="nav-produk">Produk</a>
+        <a href="#logistik" class="nav-link" id="nav-logistik">Logistik</a>
+        <a href="#kontak" class="nav-link" id="nav-kontak">Kontak</a>
+        <a href="https://wa.me/6281333399362?text=Halo%20PT.%20Cahaya%20Mandiri%20Bajamas,%20saya%20ingin%20menanyakan%20informasi%20produk."
+          class="btn-wa" id="btn-wa-nav" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Hubungi via WhatsApp
+        </a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="beranda">
+    <div class="hero__bg">
+      <img src="hero_bg.png" alt="Gudang baja PT. Cahaya Mandiri Bajamas" class="hero__bg-img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__particles" id="particles"></div>
+    <div class="container hero__content">
+      <div class="hero__badge" data-aos="fade-down">
+        <span class="badge-dot"></span>
+        Stockist Baja Terpercaya Sejak 1986
+      </div>
+      <h1 class="hero__headline" data-aos="fade-up" data-aos-delay="100">
+        Penyedia Besi & Plat Baja<br />
+        <span class="headline-accent">Komprehensif</span><br />
+        untuk Industri Anda
+      </h1>
+      <p class="hero__sub" data-aos="fade-up" data-aos-delay="200">
+        Berpengalaman dalam memenuhi kebutuhan material konstruksi dan manufaktur skala nasional sejak 1986.
+        Sebagai stockist utama, kami memastikan ketersediaan barang yang stabil dan pengiriman yang presisi.
+      </p>
+      <div class="hero__actions" data-aos="fade-up" data-aos-delay="300">
+        <a href="#produk" class="btn btn--primary" id="hero-cta-produk">Lihat Produk Kami</a>
+        <a href="https://wa.me/6281333399362?text=Halo%20PT.%20Cahaya%20Mandiri%20Bajamas,%20saya%20ingin%20menanyakan%20informasi%20produk."
+          class="btn btn--wa" id="hero-cta-wa" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Hubungi via WhatsApp
+        </a>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="hero__stats" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat-item">
+          <span class="stat-number" data-target="40">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Tahun Pengalaman</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="1986">0</span>
+          <span class="stat-label">Tahun Berdiri</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="7">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Kategori Produk</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-suffix" style="font-size:1.8rem;font-weight:800;color:#E8A020;">✓</span>
+          <span class="stat-label">Armada Sendiri</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== KEUNGGULAN ===== -->
+  <section class="keunggulan" id="keunggulan">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Mengapa Kami?</span>
+        <h2 class="section-title">Keunggulan Utama Kami</h2>
+        <p class="section-desc">Dipercaya oleh ratusan kontraktor dan pabrik di seluruh Indonesia selama lebih dari
+          empat dekade.</p>
+      </div>
+      <div class="keunggulan__grid">
+        <div class="keunggulan-card" data-aos="fade-up" data-aos-delay="0" id="keunggulan-rekam-jejak">
+          <div class="keunggulan-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <h3 class="keunggulan-card__title">Rekam Jejak Matang</h3>
+          <p class="keunggulan-card__desc">Melayani industri dan proyek konstruksi selama lebih dari <strong>40
+              tahun</strong> dengan reputasi yang terbangun kuat.</p>
+          <div class="keunggulan-card__line"></div>
+        </div>
+        <div class="keunggulan-card keunggulan-card--featured" data-aos="fade-up" data-aos-delay="100"
+          id="keunggulan-varian">
+          <div class="keunggulan-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="7" height="7" />
+              <rect x="15" y="3" width="7" height="7" />
+              <rect x="15" y="14" width="7" height="7" />
+              <rect x="2" y="14" width="7" height="7" />
+            </svg>
+          </div>
+          <h3 class="keunggulan-card__title">Pilihan Varian Luas</h3>
+          <p class="keunggulan-card__desc">Menyediakan berbagai tipe, ukuran, dan ketebalan baja langsung dari gudang
+            kami siap kirim kapan pun Anda butuhkan.</p>
+          <div class="keunggulan-card__line"></div>
+        </div>
+        <div class="keunggulan-card" data-aos="fade-up" data-aos-delay="200" id="keunggulan-pengiriman">
+          <div class="keunggulan-card__icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13" />
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+              <circle cx="5.5" cy="18.5" r="2.5" />
+              <circle cx="18.5" cy="18.5" r="2.5" />
+            </svg>
+          </div>
+          <h3 class="keunggulan-card__title">Pengiriman Mandiri</h3>
+          <p class="keunggulan-card__desc">Distribusi aman dengan <strong>armada transportasi operasional milik
+              sendiri</strong> efisien, tepat waktu, langsung ke site proyek.</p>
+          <div class="keunggulan-card__line"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG KAMI ===== -->
+  <section class="tentang" id="tentang">
+    <div class="tentang__bg-pattern"></div>
+    <div class="container tentang__inner">
+      <div class="tentang__visual" data-aos="fade-right">
+        <div class="tentang__img-wrap">
+          <img src="hero_bg.png" alt="Gudang PT. Cahaya Mandiri Bajamas" class="tentang__img" />
+          <div class="tentang__img-badge">
+            <span class="badge-year">1986</span>
+            <span class="badge-label">Tahun Berdiri</span>
+          </div>
+        </div>
+        <div class="tentang__exp-card">
+          <span class="exp-number">40+</span>
+          <span class="exp-text">Tahun Melayani<br />Industri Indonesia</span>
+        </div>
+      </div>
+      <div class="tentang__content" data-aos="fade-left">
+        <span class="section-tag">Tentang Kami</span>
+        <h2 class="section-title">Mitra Baja Terpercaya<br />Sejak Generasi Pertama</h2>
+        <p class="tentang__body">
+          PT. Cahaya Mandiri Bajamas berakar dari dedikasi panjang di industri perdagangan besi dan baja yang dimulai
+          sejak tahun <strong>1986</strong>. Berpusat di Surabaya, kami terus berevolusi hingga menjadi salah satu
+          <strong>stockist baja dan kontraktor umum terpercaya</strong> di Indonesia.
+        </p>
+        <p class="tentang__body">
+          Kami berkomitmen penuh menjadi mitra strategis bagi kontraktor, pabrik, dan pengembang infrastruktur dengan
+          menyediakan produk baja <strong>standar industri yang andal</strong> dari gudang kami langsung ke proyek
+          Anda.
+        </p>
+        <div class="tentang__values">
+          <div class="value-item" id="value-kualitas">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <span>Produk Berstandar Industri</span>
+          </div>
+          <div class="value-item" id="value-stok">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <span>Ketersediaan Stok yang Stabil</span>
+          </div>
+          <div class="value-item" id="value-logistik">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <span>Logistik Mandiri &amp; Terpercaya</span>
+          </div>
+          <div class="value-item" id="value-nasional">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </div>
+            <span>Layanan Skala Nasional</span>
+          </div>
+        </div>
+        <a href="#kontak" class="btn btn--primary" id="tentang-cta">Hubungi Kami Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUK ===== -->
+  <section class="produk" id="produk">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Katalog Produk</span>
+        <h2 class="section-title">Produk Baja &amp; Besi Kami</h2>
+        <p class="section-desc">Stok material baja lengkap dan siap kirim dari plat baja hingga profil struktural
+          berkapasitas tinggi.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="produk__tabs" data-aos="fade-up">
+        <button class="tab-btn active" data-filter="all" id="tab-semua">Semua Produk</button>
+        <button class="tab-btn" data-filter="plat" id="tab-plat">Plat Baja</button>
+        <button class="tab-btn" data-filter="profil" id="tab-profil">Profil Struktural</button>
+      </div>
+
+      <!-- Kategori A: Plat Baja -->
+      <div class="produk__category" data-aos="fade-up">
+        <div class="category-label">
+          <div class="category-line"></div>
+          <span class="category-tag">Kategori A</span>
+          <h3 class="category-title">Plat Baja <em>(Steel Plates)</em></h3>
+          <p class="category-desc">Sektor utama pasokan kami dengan berbagai spesifikasi material mentah siap kirim.</p>
+          <div class="category-line"></div>
+        </div>
+      </div>
+
+      <div class="produk__grid">
+        <!-- Plat Hitam -->
+        <div class="produk-card" data-category="plat" data-aos="fade-up" data-aos-delay="0" id="card-plat-hitam">
+          <div class="produk-card__img-wrap">
+            <img src="plat_hitam.png" alt="Plat Hitam Hot Rolled Steel" class="produk-card__img" loading="lazy" />
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Hitam."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag">Hot Rolled</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Plat Hitam</h4>
+            <p class="produk-card__en">Hot Rolled Steel Sheets</p>
+            <p class="produk-card__desc">Plat baja umum untuk kebutuhan fabrikasi standar dan struktural. Tersedia dalam
+              berbagai ketebalan dan ukuran lembaran.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Hitam."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Plat Kapal -->
+        <div class="produk-card" data-category="plat" data-aos="fade-up" data-aos-delay="100" id="card-plat-kapal">
+          <div class="produk-card__img-wrap">
+            <img src="plat_kapal.png" alt="Plat Kapal Shipbuilding Quality" class="produk-card__img" loading="lazy" />
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Kapal."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag produk-card__tag--special">Marine Grade</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Plat Kapal</h4>
+            <p class="produk-card__en">Shipbuilding Quality Plates</p>
+            <p class="produk-card__desc">Plat dengan spesifikasi khusus ketahanan korosi lebih tinggi, standar industri
+              galangan kapal dan tangki besar.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Kapal."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Plat Bordes -->
+        <div class="produk-card" data-category="plat" data-aos="fade-up" data-aos-delay="200" id="card-plat-bordes">
+          <div class="produk-card__img-wrap">
+            <img src="plat_bordes.png" alt="Plat Bordes Checkered Plate" class="produk-card__img" loading="lazy" />
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Bordes."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag">Anti-Slip</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Plat Bordes</h4>
+            <p class="produk-card__en">Checkered Plates</p>
+            <p class="produk-card__desc">Plat bertekstur kembang/berpola, digunakan untuk lantai transportasi berat,
+              tangga industri, dan fasilitas umum.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Bordes."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Plat Strip -->
+        <div class="produk-card" data-category="plat" data-aos="fade-up" data-aos-delay="300" id="card-plat-strip">
+          <div class="produk-card__img-wrap">
+            <img src="plat_strip.png" alt="Plat Strip Flat Bars" class="produk-card__img" loading="lazy" />
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Strip."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag">Flat Bar</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Plat Strip</h4>
+            <p class="produk-card__en">Flat Bars</p>
+            <p class="produk-card__desc">Material baja pipih panjang untuk kebutuhan komponen struktural maupun industri
+              otomotif/karoseri.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Plat%20Strip."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kategori B: Profil Struktural -->
+      <div class="produk__category" data-aos="fade-up" style="margin-top:3rem;">
+        <div class="category-label">
+          <div class="category-line"></div>
+          <span class="category-tag">Kategori B</span>
+          <h3 class="category-title">Profil &amp; Baja Struktural</h3>
+          <p class="category-desc">Rangkaian produk baja profil berkapasitas tinggi untuk konstruksi bangunan dan
+            infrastruktur.</p>
+          <div class="category-line"></div>
+        </div>
+      </div>
+
+      <div class="produk__grid">
+        <!-- Besi Siku -->
+        <div class="produk-card" data-category="profil" data-aos="fade-up" data-aos-delay="0" id="card-besi-siku">
+          <div class="produk-card__img-wrap">
+            <img src="besi_siku.png" alt="Besi Siku Angle Bar" class="produk-card__img" loading="lazy" />
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Besi%20Siku."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag">Angle Bar</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Besi Siku</h4>
+            <p class="produk-card__en">Angle Bars</p>
+            <p class="produk-card__desc">Profil baja siku untuk struktur pendukung, rangka, dan pekerjaan besi umum di
+              konstruksi dan industri.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20Besi%20Siku."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- H-Beam & WF -->
+        <div class="produk-card produk-card--wide" data-category="profil" data-aos="fade-up" data-aos-delay="100"
+          id="card-hbeam">
+          <div class="produk-card__img-wrap">
+            <div class="produk-card__img-placeholder produk-card__img-placeholder--beam">
+              <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="5" width="60" height="10" rx="2" fill="#E8A020" opacity="0.8" />
+                <rect x="33" y="15" width="14" height="50" rx="2" fill="#E8A020" opacity="0.6" />
+                <rect x="10" y="65" width="60" height="10" rx="2" fill="#E8A020" opacity="0.8" />
+                <text x="40" y="46" text-anchor="middle" fill="white" font-size="8" font-weight="bold"
+                  font-family="Inter">H-BEAM</text>
+              </svg>
+            </div>
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20H-Beam%20dan%20WF-Beam."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag produk-card__tag--special">Kapasitas Tinggi</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">H-Beam &amp; WF-Beam</h4>
+            <p class="produk-card__en">Wide Flange Steel Beams</p>
+            <p class="produk-card__desc">Material baja struktural utama berkapasitas beban tinggi untuk kolom dan balok
+              bangunan pabrik atau jembatan. Tersedia berbagai ukuran profil.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20harga%20H-Beam%20dan%20WF-Beam."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Besi Konstruksi Lainnya -->
+        <div class="produk-card" data-category="profil" data-aos="fade-up" data-aos-delay="200" id="card-besi-lainnya">
+          <div class="produk-card__img-wrap">
+            <div class="produk-card__img-placeholder produk-card__img-placeholder--rebar">
+              <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="40" r="8" stroke="#E8A020" stroke-width="3" fill="none" opacity="0.8" />
+                <line x1="33" y1="40" x2="70" y2="40" stroke="#E8A020" stroke-width="3" opacity="0.6" />
+                <circle cx="25" cy="22" r="6" stroke="#E8A020" stroke-width="3" fill="none" opacity="0.6" />
+                <line x1="31" y1="22" x2="70" y2="22" stroke="#E8A020" stroke-width="3" opacity="0.4" />
+                <circle cx="25" cy="58" r="6" stroke="#E8A020" stroke-width="3" fill="none" opacity="0.6" />
+                <line x1="31" y1="58" x2="70" y2="58" stroke="#E8A020" stroke-width="3" opacity="0.4" />
+              </svg>
+            </div>
+            <div class="produk-card__overlay">
+              <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20kebutuhan%20besi%20konstruksi."
+                class="btn-overlay" target="_blank" rel="noopener noreferrer">Tanya Harga</a>
+            </div>
+            <span class="produk-card__tag">Custom Order</span>
+          </div>
+          <div class="produk-card__body">
+            <h4 class="produk-card__name">Kebutuhan Besi Konstruksi</h4>
+            <p class="produk-card__en">Construction Steel &amp; Pipes</p>
+            <p class="produk-card__desc">Menyediakan besi beton (polos &amp; ulir) serta pipa baja industri sesuai
+              permintaan proyek Anda.</p>
+            <a href="https://wa.me/6281333399362?text=Halo,%20saya%20ingin%20menanyakan%20kebutuhan%20besi%20konstruksi."
+              class="produk-card__cta" target="_blank" rel="noopener noreferrer">
+              Tanya Ketersediaan
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOGISTIK ===== -->
+  <section class="logistik" id="logistik">
+    <div class="logistik__bg"></div>
+    <div class="container">
+      <div class="section-header section-header--light" data-aos="fade-up">
+        <span class="section-tag section-tag--gold">Armada &amp; Fasilitas</span>
+        <h2 class="section-title section-title--light">Logistik Mandiri &amp; Terintegrasi</h2>
+        <p class="section-desc section-desc--light">Dari gudang Romokalisari langsung ke lokasi proyek Anda aman,
+          terjadwal, dan efisien.</p>
+      </div>
+      <div class="logistik__grid">
+        <div class="logistik-card" data-aos="fade-up" data-aos-delay="0" id="logistik-gudang">
+          <div class="logistik-card__icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h3 class="logistik-card__title">Kapasitas Gudang</h3>
+          <p class="logistik-card__desc">Operasional penyimpanan material terpusat di kawasan industri
+            <strong>Romokalisari, Surabaya</strong>. Material terlindungi dari pengaruh cuaca dan tersimpan dengan aman
+            sebelum pengiriman.
+          </p>
+          <div class="logistik-card__detail">
+            <span>📍 Kawasan Industri Romokalisari, Surabaya</span>
+          </div>
+        </div>
+        <div class="logistik-card logistik-card--featured" data-aos="fade-up" data-aos-delay="100" id="logistik-armada">
+          <div class="logistik-card__icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13" />
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+              <circle cx="5.5" cy="18.5" r="2.5" />
+              <circle cx="18.5" cy="18.5" r="2.5" />
+            </svg>
+          </div>
+          <h3 class="logistik-card__title">Armada Pengiriman</h3>
+          <p class="logistik-card__desc">Pengiriman material berat dilakukan secara terjadwal menggunakan <strong>unit
+              armada truk mandiri</strong> efisiensi biaya lebih terjaga dan ketepatan waktu sampai di site proyek
+            lebih terjamin.</p>
+          <div class="logistik-card__detail">
+            <span>🚛 Armada Truk Operasional Milik Sendiri</span>
+          </div>
+        </div>
+        <div class="logistik-card" data-aos="fade-up" data-aos-delay="200" id="logistik-jangkauan">
+          <div class="logistik-card__icon-wrap">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+            </svg>
+          </div>
+          <h3 class="logistik-card__title">Jangkauan Nasional</h3>
+          <p class="logistik-card__desc">Melayani pengiriman ke berbagai wilayah di Indonesia untuk mendukung kebutuhan
+            proyek konstruksi dan manufaktur skala besar maupun menengah.</p>
+          <div class="logistik-card__detail">
+            <span>🌏 Distribusi ke Seluruh Indonesia</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Foto Logistik Area -->
+      <div class="logistik__photos" data-aos="fade-up">
+        <div class="logistik-photo" id="logistik-photo-truk">
+          <img src="hero_bg.png" alt="Armada Truk PT. Cahaya Mandiri Bajamas" class="logistik-photo__img" />
+          <div class="logistik-photo__caption">Armada Operasional PT. CMB</div>
+        </div>
+        <div class="logistik-photo" id="logistik-photo-gudang">
+          <img src="plat_hitam.png" alt="Gudang Romokalisari PT. Cahaya Mandiri Bajamas" class="logistik-photo__img" />
+          <div class="logistik-photo__caption">Gudang Romokalisari, Surabaya</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner" id="cta-banner">
+    <div class="cta-banner__bg"></div>
+    <div class="container cta-banner__inner" data-aos="zoom-in">
+      <div class="cta-banner__text">
+        <h2>Siap Memenuhi Kebutuhan Baja Proyek Anda?</h2>
+        <p>Hubungi tim kami sekarang untuk konsultasi ketersediaan stok, spesifikasi teknis, dan penawaran harga
+          terbaik.</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="https://wa.me/6281333399362?text=Halo%20PT.%20Cahaya%20Mandiri%20Bajamas,%20saya%20ingin%20menanyakan%20penawaran%20produk%20baja."
+          class="btn btn--wa btn--lg" id="cta-wa-main" target="_blank" rel="noopener noreferrer">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Chat WhatsApp Sekarang
+        </a>
+        <a href="tel:+62319900149" class="btn btn--outline-light btn--lg" id="cta-telp-main">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.02z" />
+          </svg>
+          Telepon Kantor
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section class="kontak" id="kontak">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Hubungi Kami</span>
+        <h2 class="section-title">Informasi Kontak &amp; Lokasi</h2>
+        <p class="section-desc">Kami siap melayani pertanyaan dan kebutuhan material baja Anda setiap hari kerja.</p>
+      </div>
+      <div class="kontak__grid">
+        <div class="kontak__info" data-aos="fade-right">
+          <div class="kontak-item" id="kontak-alamat">
+            <div class="kontak-item__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="kontak-item__content">
+              <h4>Alamat Kantor &amp; Gudang</h4>
+              <p>Jl. Romokalisari No. 80 Blok E No. 01,<br />Kelurahan Romokalisari, Kecamatan
+                Benowo,<br /><strong>Surabaya - Indonesia</strong></p>
+              <a href="https://maps.google.com/?q=Jl.+Romokalisari+No.+80+Blok+E+No.+01,+Romokalisari,+Benowo,+Surabaya"
+                class="kontak-link" target="_blank" rel="noopener noreferrer" id="link-gmaps">
+                Buka di Google Maps →
+              </a>
+            </div>
+          </div>
+          <div class="kontak-item" id="kontak-wa">
+            <div class="kontak-item__icon kontak-item__icon--wa">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </div>
+            <div class="kontak-item__content">
+              <h4>WhatsApp <span class="badge-fast">Fast Response</span></h4>
+              <a href="https://wa.me/6281333399362" class="kontak-link kontak-link--phone" id="link-wa" target="_blank"
+                rel="noopener noreferrer">0813-3339-9362</a>
+            </div>
+          </div>
+          <div class="kontak-item" id="kontak-telp">
+            <div class="kontak-item__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .84h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.63a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.02z" />
+              </svg>
+            </div>
+            <div class="kontak-item__content">
+              <h4>Telepon Kantor</h4>
+              <a href="tel:+62319900149" class="kontak-link" id="link-telp1">(+62-31) 9900-1409</a>
+              <a href="tel:+62319900159" class="kontak-link" id="link-telp2">(+62-31) 9900-1593</a>
+            </div>
+          </div>
+          <div class="kontak-item" id="kontak-email">
+            <div class="kontak-item__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </div>
+            <div class="kontak-item__content">
+              <h4>Email Resmi</h4>
+              <a href="mailto:ptcahayamandiri_bajamas89@yahoo.com" class="kontak-link"
+                id="link-email">ptcahayamandiri_bajamas89@yahoo.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Peta -->
+        <div class="kontak__map" data-aos="fade-left">
+          <div class="map-wrapper" id="map-wrapper">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6123!2d112.6574!3d-7.2575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc2d3f5b7%3A0x5e3a2b4c6d7e8f9a!2sJl.%20Romokalisari%2C%20Surabaya!5e0!3m2!1sid!2sid!4v1"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Lokasi PT. Cahaya Mandiri Bajamas - Jl. Romokalisari No. 80, Surabaya"
+              id="google-map-embed"></iframe>
+          </div>
+          <a href="https://maps.google.com/?q=Jl.+Romokalisari+No.+80+Blok+E+No.+01,+Romokalisari,+Benowo,+Surabaya"
+            class="btn btn--outline btn--sm map-cta" target="_blank" rel="noopener noreferrer" id="btn-gmaps">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Klik untuk Rute ke Gudang PT. CMB
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+        <div class="footer__brand">
+          <a href="#beranda" class="navbar__logo" id="footer-logo">
+            <div class="logo-icon">
+              <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="38" height="38" rx="6" fill="url(#logoGrad2)" />
+                <path d="M8 10H30V14H22V28H16V14H8V10Z" fill="white" />
+                <path d="M8 18H14V28H8V18Z" fill="rgba(255,255,255,0.4)" />
+                <path d="M24 18H30V28H24V18Z" fill="rgba(255,255,255,0.4)" />
+                <defs>
+                  <linearGradient id="logoGrad2" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#E8A020" />
+                    <stop offset="100%" stop-color="#C47A15" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-pt">PT.</span>
+              <span class="logo-company">Cahaya Mandiri</span>
+              <span class="logo-sub">BAJAMAS</span>
+            </div>
+          </a>
+          <p class="footer__tagline">Stockist baja &amp; besi terpercaya di Indonesia.<br />Melayani industri konstruksi
+            sejak 1986.</p>
+        </div>
+        <div class="footer__links">
+          <h5>Navigasi</h5>
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang Kami</a>
+          <a href="#produk">Produk</a>
+          <a href="#logistik">Logistik</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+        <div class="footer__links">
+          <h5>Produk</h5>
+          <a href="#produk">Plat Hitam</a>
+          <a href="#produk">Plat Kapal</a>
+          <a href="#produk">Plat Bordes</a>
+          <a href="#produk">H-Beam &amp; WF</a>
+          <a href="#produk">Besi Siku</a>
+        </div>
+        <div class="footer__contact">
+          <h5>Kontak</h5>
+          <a href="https://wa.me/6281333399362" target="_blank" rel="noopener noreferrer">WA: 0813-3339-9362</a>
+          <a href="tel:+62319900149">Telp: (+62-31) 9900-1409</a>
+          <a href="mailto:ptcahayamandiri_bajamas89@yahoo.com">ptcahayamandiri_bajamas89<br />@yahoo.com</a>
+          <a href="https://wa.me/6281333399362" class="btn-wa btn-wa--sm" target="_blank" rel="noopener noreferrer"
+            id="footer-wa-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+            Chat WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; 2024 PT. Cahaya Mandiri Bajamas. Seluruh hak cipta dilindungi.</p>
+        <p>Jl. Romokalisari No. 80, Surabaya — Indonesia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WA Button -->
+  <a href="https://wa.me/6281333399362?text=Halo%20PT.%20Cahaya%20Mandiri%20Bajamas,%20saya%20ingin%20menanyakan%20informasi%20produk."
+    class="floating-wa" id="floating-wa" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
+    <span class="floating-wa__pulse"></span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
