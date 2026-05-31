@@ -11,3 +11,4 @@ desktop.ini
 
 # Node (jika nanti ditambahkan)
 node_modules/
+dist/
